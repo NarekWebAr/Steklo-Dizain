@@ -14,6 +14,16 @@ document.onclick = function(e){
     }
 }
 
+// PRELOADER
+
+document.body.onload = function(){
+    setTimeout(function(){
+        let preloader = document.querySelector('.load');
+        if( !preloader.classList.contains('done')){
+            preloader.classList.add('done');
+        }
+    }, 1000);
+}
 
 
 
