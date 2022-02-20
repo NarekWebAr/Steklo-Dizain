@@ -15,7 +15,6 @@ document.onclick = function(e){
 }
 
 // PRELOADER
-
 document.body.onload = function(){
     setTimeout(function(){
         let preloader = document.querySelector('.load');
